@@ -1,4 +1,4 @@
-# get-favicons
+# get-favicons [![Build Status](https://travis-ci.org/bbcrd/get-favicons.svg?branch=master)](https://travis-ci.org/bbcrd/get-favicons)
 
 > A promise to return a list of favicons contained in some HTML content.
 
