@@ -1,0 +1,38 @@
+{
+  "name": "get-favicons",
+  "version": "1.0.0",
+  "description": "Extract the favicons URLs from a set of HTML head elements.",
+  "main": "from-stream.js",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bbcrd/get-favicons.git"
+  },
+  "keywords": [
+    "favicon",
+    "favico",
+    "cli",
+    "html",
+    "head",
+    "bbc"
+  ],
+  "author": "Thomas Parisot (https://oncletom.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/bbcrd/get-favicons/issues"
+  },
+  "homepage": "https://github.com/bbcrd/get-favicons#readme",
+  "dependencies": {
+    "parse-head": "^1.0.0",
+    "yargs": "^4.1.0"
+  },
+  "devDependencies": {
+    "blue-tape": "^0.2.0"
+  }
+}
